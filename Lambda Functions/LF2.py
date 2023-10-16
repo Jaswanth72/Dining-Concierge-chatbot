@@ -5,10 +5,10 @@ import random
 from opensearchpy import OpenSearch, RequestsHttpConnection
 
 
-QUEUE_URL = 'https://sqs.us-east-1.amazonaws.com/695197419015/SQS'
+QUEUE_URL = 'SQS Queue Link'
 
-OS_HOST = "https://search-dinningdomain-42drtbrudckqf74j2vdghvxdzy.us-east-1.es.amazonaws.com"
-OS_AUTH = ('jn2652', 'Venkat72*')
+OS_HOST = "Open Search End Point link"
+OS_AUTH = ('Username', 'Password')
 OS_INDEX = "restaurants"
 
 DYDB_TABLE = "Dinningdb"
