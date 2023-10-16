@@ -122,7 +122,7 @@ def push_to_sqs(reservation):
     
     sqs = boto3.client('sqs')
 
-    queue_url = 'https://sqs.us-east-1.amazonaws.com/695197419015/SQS'
+    queue_url = 'Link to SQS queue'
 
     # Send message to SQS queue
     response = sqs.send_message(
