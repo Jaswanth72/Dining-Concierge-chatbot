@@ -5,8 +5,8 @@ from opensearchpy import OpenSearch, RequestsHttpConnection
 print("Uploading Restaurant data to OpenSearch started...")
 
 opensearch = OpenSearch(
-    hosts = ["https://search-dinningdomain-42drtbrudckqf74j2vdghvxdzy.us-east-1.es.amazonaws.com"],
-    http_auth = ('jn2652', 'Venkat72*'),
+    hosts = ["Open Search End point Link"],
+    http_auth = ('User Name', 'Password'),
     use_ssl = True,
     verify_certs = True,
     ssl_assert_hostname = False,
